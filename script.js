@@ -9,7 +9,7 @@ var map = L.map('map').setView([38.638363, -90.279093], 8);
 	ext: 'png'
 }).addTo(map);
 
- $.getJSON("https://raw.githubusercontent.com/sheikhasif1996/ThesisStudyArea/main/RedRiver_ONEPART_geojson.json",function(data){
+ $.getJSON("https://raw.githubusercontent.com/sheikhasif1996/ThesisStudyArea/main/RedRiver_ONEPART_geojson.json",function(main){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJson(main).addTo(map);
   });
