@@ -11,5 +11,5 @@ var map = L.map('map').setView([38.638363, -90.279093], 8);
 
  $.getJSON("https://raw.githubusercontent.com/sheikhasif1996/ThesisStudyArea/main/RedRiver_ONEPART_geojson.json",function(data){
     // add GeoJSON layer to the map once the file is loaded
-    L.geoJson(data).addTo(map);
+    L.geoJson(main).addTo(map);
   });
